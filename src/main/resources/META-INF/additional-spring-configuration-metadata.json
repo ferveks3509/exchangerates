@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "openExchangeUrl",
+      "type": "java.lang.String",
+      "description": "Description for openExchangeUrl."
+  }
+] }
