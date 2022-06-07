@@ -26,8 +26,8 @@ public class ExchangeCurrencyService {
     private String symbols;
 
     public String findGiphy() {
-        String giphyUrl = giphyService.getGiphy(checkValueCurrency());
-        return "<img src=\"" + giphyUrl + "\" width=250/>";
+        String giphyUrl = giphyService.getGiphyUrl(checkValueCurrency());
+        return "<img src=\"" + giphyUrl + "\" width=300/>";
     }
 
     private String checkValueCurrency() {

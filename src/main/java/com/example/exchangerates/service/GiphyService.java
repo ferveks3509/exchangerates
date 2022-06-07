@@ -22,7 +22,7 @@ public class GiphyService {
     @Value("${giphy.rating}")
     private String rating;
 
-    public String getGiphy(String tag) {
+    public String getGiphyUrl(String tag) {
         JsonNode jsonNode = null;
         try {
            jsonNode = new ObjectMapper().readTree(giphyClient.getRandomGiphy(api_key, tag, rating));
