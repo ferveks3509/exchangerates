@@ -13,7 +13,7 @@ http://localhost:8080/giphy
 ## Запустить сервис в docker image
 ```
 git clone https://github.com/ferveks3509/exchangerates
-cd currencychecker
+cd exchangerates
 gradle build
 docker build -t exchangerates .
 docker run -p 8080:8080 exchangerates
