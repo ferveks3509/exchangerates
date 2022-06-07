@@ -10,7 +10,7 @@ git clone https://github.com/ferveks3509/exchangerates
 gradle build
 http://localhost:8080/giphy
 ```
-##Запустить сервис в docker image
+## Запустить сервис в docker image
 ```
 git clone https://github.com/ferveks3509/exchangerates
 cd currencychecker
