@@ -30,7 +30,7 @@ public class ExchangeCurrencyService {
         return "<img src=\"" + giphyUrl + "\" width=300/>";
     }
 
-    private String checkValueCurrency() {
+    public String checkValueCurrency() {
         String today = LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
         String yesterday = LocalDate.now().minusDays(1).format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 
